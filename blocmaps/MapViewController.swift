@@ -16,16 +16,16 @@ class MapViewController: UIViewController {
     override func viewDidLoad() {
                 super.viewDidLoad()
                 
-                var camera = GMSCameraPosition.cameraWithLatitude(-33.86,
-                    longitude: 151.20, zoom: 6)
+                var camera = GMSCameraPosition.cameraWithLatitude(47.62,
+                    longitude: -122.35, zoom: 15)
                 var mapView = GMSMapView.mapWithFrame(CGRectZero, camera: camera)
                 mapView.myLocationEnabled = true
                 self.view = mapView
                 
                 var marker = GMSMarker()
-                marker.position = CLLocationCoordinate2DMake(-33.86, 151.20)
-                marker.title = "Sydney"
-                marker.snippet = "Australia"
+                marker.position = CLLocationCoordinate2DMake(47.62, -122.35)
+                marker.title = "Seattle Center"
+                marker.snippet = "Seattle, WA"
                 marker.map = mapView
             }
         }
