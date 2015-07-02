@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8C72F7A1-00A1-4C0B-9DC4-2CF71A08DD69</string>
+	<key>IDESourceControlProjectName</key>
+	<string>blocmaps</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>76BBD54AB55FA9F6B3903E2229C08DB0F152D220</key>
+		<string>https://github.com/Notsosof1/GoogleMaps.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>blocmaps.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>76BBD54AB55FA9F6B3903E2229C08DB0F152D220</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Notsosof1/GoogleMaps.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>76BBD54AB55FA9F6B3903E2229C08DB0F152D220</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>76BBD54AB55FA9F6B3903E2229C08DB0F152D220</string>
+			<key>IDESourceControlWCCName</key>
+			<string>blocmaps</string>
+		</dict>
+	</array>
+</dict>
+</plist>
