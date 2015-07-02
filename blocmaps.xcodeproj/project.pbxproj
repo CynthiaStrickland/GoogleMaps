@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DAC06B11B44E87600F604A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC06B01B44E87600F604A6 /* AppDelegate.swift */; };
+		3DAC06B31B44E87600F604A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC06B21B44E87600F604A6 /* ViewController.swift */; };
+		3DAC06B61B44E87600F604A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DAC06B41B44E87600F604A6 /* Main.storyboard */; };
+		3DAC06B81B44E87600F604A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DAC06B71B44E87600F604A6 /* Images.xcassets */; };
+		3DAC06BB1B44E87600F604A6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DAC06B91B44E87600F604A6 /* LaunchScreen.xib */; };
+		3DAC06C71B44E87600F604A6 /* blocmapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC06C61B44E87600F604A6 /* blocmapsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DAC06C11B44E87600F604A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DAC06A31B44E87600F604A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DAC06AA1B44E87600F604A6;
+			remoteInfo = blocmaps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DAC06AB1B44E87600F604A6 /* blocmaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blocmaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DAC06AF1B44E87600F604A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DAC06B01B44E87600F604A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DAC06B21B44E87600F604A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DAC06B51B44E87600F604A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DAC06B71B44E87600F604A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3DAC06BA1B44E87600F604A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3DAC06C01B44E87600F604A6 /* blocmapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blocmapsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DAC06C51B44E87600F604A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DAC06C61B44E87600F604A6 /* blocmapsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blocmapsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DAC06A81B44E87600F604A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DAC06BD1B44E87600F604A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DAC06A21B44E87600F604A6 = {
+			isa = PBXGroup;
+			children = (
+				3DAC06AD1B44E87600F604A6 /* blocmaps */,
+				3DAC06C31B44E87600F604A6 /* blocmapsTests */,
+				3DAC06AC1B44E87600F604A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DAC06AC1B44E87600F604A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DAC06AB1B44E87600F604A6 /* blocmaps.app */,
+				3DAC06C01B44E87600F604A6 /* blocmapsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DAC06AD1B44E87600F604A6 /* blocmaps */ = {
+			isa = PBXGroup;
+			children = (
+				3DAC06B01B44E87600F604A6 /* AppDelegate.swift */,
+				3DAC06B21B44E87600F604A6 /* ViewController.swift */,
+				3DAC06B41B44E87600F604A6 /* Main.storyboard */,
+				3DAC06B71B44E87600F604A6 /* Images.xcassets */,
+				3DAC06B91B44E87600F604A6 /* LaunchScreen.xib */,
+				3DAC06AE1B44E87600F604A6 /* Supporting Files */,
+			);
+			path = blocmaps;
+			sourceTree = "<group>";
+		};
+		3DAC06AE1B44E87600F604A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DAC06AF1B44E87600F604A6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DAC06C31B44E87600F604A6 /* blocmapsTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DAC06C61B44E87600F604A6 /* blocmapsTests.swift */,
+				3DAC06C41B44E87600F604A6 /* Supporting Files */,
+			);
+			path = blocmapsTests;
+			sourceTree = "<group>";
+		};
+		3DAC06C41B44E87600F604A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DAC06C51B44E87600F604A6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DAC06AA1B44E87600F604A6 /* blocmaps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DAC06CA1B44E87600F604A6 /* Build configuration list for PBXNativeTarget "blocmaps" */;
+			buildPhases = (
+				3DAC06A71B44E87600F604A6 /* Sources */,
+				3DAC06A81B44E87600F604A6 /* Frameworks */,
+				3DAC06A91B44E87600F604A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = blocmaps;
+			productName = blocmaps;
+			productReference = 3DAC06AB1B44E87600F604A6 /* blocmaps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DAC06BF1B44E87600F604A6 /* blocmapsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DAC06CD1B44E87600F604A6 /* Build configuration list for PBXNativeTarget "blocmapsTests" */;
+			buildPhases = (
+				3DAC06BC1B44E87600F604A6 /* Sources */,
+				3DAC06BD1B44E87600F604A6 /* Frameworks */,
+				3DAC06BE1B44E87600F604A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DAC06C21B44E87600F604A6 /* PBXTargetDependency */,
+			);
+			name = blocmapsTests;
+			productName = blocmapsTests;
+			productReference = 3DAC06C01B44E87600F604A6 /* blocmapsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DAC06A31B44E87600F604A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Cynthia Whitlatch";
+				TargetAttributes = {
+					3DAC06AA1B44E87600F604A6 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					3DAC06BF1B44E87600F604A6 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 3DAC06AA1B44E87600F604A6;
+					};
+				};
+			};
+			buildConfigurationList = 3DAC06A61B44E87600F604A6 /* Build configuration list for PBXProject "blocmaps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DAC06A21B44E87600F604A6;
+			productRefGroup = 3DAC06AC1B44E87600F604A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DAC06AA1B44E87600F604A6 /* blocmaps */,
+				3DAC06BF1B44E87600F604A6 /* blocmapsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DAC06A91B44E87600F604A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DAC06B61B44E87600F604A6 /* Main.storyboard in Resources */,
+				3DAC06BB1B44E87600F604A6 /* LaunchScreen.xib in Resources */,
+				3DAC06B81B44E87600F604A6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DAC06BE1B44E87600F604A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DAC06A71B44E87600F604A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DAC06B31B44E87600F604A6 /* ViewController.swift in Sources */,
+				3DAC06B11B44E87600F604A6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DAC06BC1B44E87600F604A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DAC06C71B44E87600F604A6 /* blocmapsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DAC06C21B44E87600F604A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DAC06AA1B44E87600F604A6 /* blocmaps */;
+			targetProxy = 3DAC06C11B44E87600F604A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DAC06B41B44E87600F604A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DAC06B51B44E87600F604A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DAC06B91B44E87600F604A6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DAC06BA1B44E87600F604A6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DAC06C81B44E87600F604A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DAC06C91B44E87600F604A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DAC06CB1B44E87600F604A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = blocmaps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3DAC06CC1B44E87600F604A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = blocmaps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3DAC06CE1B44E87600F604A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = blocmapsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/blocmaps.app/blocmaps";
+			};
+			name = Debug;
+		};
+		3DAC06CF1B44E87600F604A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = blocmapsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/blocmaps.app/blocmaps";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DAC06A61B44E87600F604A6 /* Build configuration list for PBXProject "blocmaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DAC06C81B44E87600F604A6 /* Debug */,
+				3DAC06C91B44E87600F604A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DAC06CA1B44E87600F604A6 /* Build configuration list for PBXNativeTarget "blocmaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DAC06CB1B44E87600F604A6 /* Debug */,
+				3DAC06CC1B44E87600F604A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3DAC06CD1B44E87600F604A6 /* Build configuration list for PBXNativeTarget "blocmapsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DAC06CE1B44E87600F604A6 /* Debug */,
+				3DAC06CF1B44E87600F604A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DAC06A31B44E87600F604A6 /* Project object */;
+}
