@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3DAC06B11B44E87600F604A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC06B01B44E87600F604A6 /* AppDelegate.swift */; };
-		3DAC06B31B44E87600F604A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC06B21B44E87600F604A6 /* ViewController.swift */; };
+		3DAC06B31B44E87600F604A6 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC06B21B44E87600F604A6 /* MapViewController.swift */; };
 		3DAC06B61B44E87600F604A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DAC06B41B44E87600F604A6 /* Main.storyboard */; };
 		3DAC06B81B44E87600F604A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DAC06B71B44E87600F604A6 /* Images.xcassets */; };
 		3DAC06BB1B44E87600F604A6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DAC06B91B44E87600F604A6 /* LaunchScreen.xib */; };
 		3DAC06C71B44E87600F604A6 /* blocmapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC06C61B44E87600F604A6 /* blocmapsTests.swift */; };
+		3DAC06D11B44F56500F604A6 /* TypesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC06D01B44F56500F604A6 /* TypesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		3DAC06AB1B44E87600F604A6 /* blocmaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blocmaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DAC06AF1B44E87600F604A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DAC06B01B44E87600F604A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3DAC06B21B44E87600F604A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DAC06B21B44E87600F604A6 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		3DAC06B51B44E87600F604A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DAC06B71B44E87600F604A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3DAC06BA1B44E87600F604A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3DAC06C01B44E87600F604A6 /* blocmapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blocmapsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DAC06C51B44E87600F604A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DAC06C61B44E87600F604A6 /* blocmapsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blocmapsTests.swift; sourceTree = "<group>"; };
+		3DAC06D01B44F56500F604A6 /* TypesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				3DAC06B01B44E87600F604A6 /* AppDelegate.swift */,
-				3DAC06B21B44E87600F604A6 /* ViewController.swift */,
+				3DAC06B21B44E87600F604A6 /* MapViewController.swift */,
+				3DAC06D01B44F56500F604A6 /* TypesTableViewController.swift */,
 				3DAC06B41B44E87600F604A6 /* Main.storyboard */,
 				3DAC06B71B44E87600F604A6 /* Images.xcassets */,
 				3DAC06B91B44E87600F604A6 /* LaunchScreen.xib */,
@@ -161,6 +164,7 @@
 				TargetAttributes = {
 					3DAC06AA1B44E87600F604A6 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = LK662Y5U4K;
 					};
 					3DAC06BF1B44E87600F604A6 = {
 						CreatedOnToolsVersion = 6.4;
@@ -212,8 +216,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DAC06B31B44E87600F604A6 /* ViewController.swift in Sources */,
+				3DAC06B31B44E87600F604A6 /* MapViewController.swift in Sources */,
 				3DAC06B11B44E87600F604A6 /* AppDelegate.swift in Sources */,
+				3DAC06D11B44F56500F604A6 /* TypesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,9 +347,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = blocmaps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -352,9 +360,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = blocmaps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
